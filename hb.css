@@ -1,0 +1,93 @@
+html {
+	background: url("./imgs/calvary-wallpaper.png") no-repeat center fixed;
+	background-size: cover;
+}
+
+h6 {
+  text-align: right;
+}
+
+h1 {
+  text-align: right;
+  color: #800020;
+}
+
+.wrapper {
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+.wrapper > p {
+
+    text-align: right;
+
+    text: bold;
+
+    padding: 20px 16px;
+
+    background-color: none;
+
+    color: #577839;
+
+    position: relative;
+
+    transition-timing-function: ease;
+
+    transition-duration: 3.9s;
+
+    opacity: 0;
+
+}
+
+.delay1 {
+
+    transition-delay: 0.6s;
+    position: right;
+}
+
+.delay2 {
+
+    transition-delay: 1.2s;
+
+}
+
+.delay3 {
+
+    transition-delay: 1.8s;
+
+}
+
+
+
+p .delay4 {
+
+    text-align: left;
+
+    transition-delay: 1.2s;
+
+}
+
+.wrapper.slide-items-in-from-bottom > p {
+
+    -ms-transform: translateY(100%);
+
+    -webkit-transform: translateY(100%);
+
+    transform: translateY(100%);
+
+}
+
+.wrapper.slide-items > p {
+
+   opacity: 1;
+
+   -ms-transform: none;
+
+   -webkit-transform: none;
+
+   transform: none;
+
+}
